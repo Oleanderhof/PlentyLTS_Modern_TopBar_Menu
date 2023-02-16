@@ -1,0 +1,35 @@
+    #custom-topnav-dropdown{
+        /* background-color: rgb(40, 45, 47); */
+        color: rgb(255, 255, 255);
+        border-bottom: 0px;
+        z-index: 1070;
+        padding-left: 0 !important;
+        position: fixed;
+        background-color: #343a40;
+        }
+        
+    #custom-topnav-dropdown ul {
+    
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    #custom-topnav-dropdown ul li a {
+
+        color: #ffffff;
+        display: block;
+
+        padding: 15px;
+        text-align: center;
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+
+        }
+        
+        #custom-topnav-dropdown ul li a:hover {
+        background-color: #6c757d;
+    }

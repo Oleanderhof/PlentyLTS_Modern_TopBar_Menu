@@ -1,0 +1,18 @@
+{
+    "name"                  :"customTopNavLTSModern",
+    "description"           :"Custom TopNav Menu for Plentymarkets LTS Modern",
+    "namespace"             :"customTopNavLTSModern",
+    "author"                :"voodoo33000",
+    "keywords"              : ["theme", "Ceres", "template"],
+    "type"                  :"theme",
+    "require"               : [],
+    "serviceProvider"       :"customTopNavLTSModern\\Providers\\customTopNavLTSModernServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"customTopNavLTSModern\\Containers\\customTopNavLTSModernContainer",
+            "name"          :"customTopNavLTSModern",
+            "description"   :"Customisations und so"
+        }
+    ]
+}
